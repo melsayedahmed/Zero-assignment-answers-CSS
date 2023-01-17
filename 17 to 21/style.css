@@ -1,0 +1,53 @@
+/* 
+link of github 
+https://github.com/melsayedahmed
+Dont forget follow 
+
+link of Youtube Channel
+https://www.youtube.com/channel/UCo92JwtW5CbyN3XO6O0qocA
+Dont forget Subscribe
+ */
+ .shadow{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 0 #f24336, 2px 2px 0 #2196f3, 3px 3px 0 #9c27b0;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+}
+.one{
+    text-transform: uppercase;
+}
+.two{
+    text-transform: capitalize;
+}
+.three{
+    text-transform: lowercase;
+}
+.assign-3{
+    width: 300px;
+    background-color: #ddd;
+    margin: 20px auto;
+    padding: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+a{
+    text-transform: capitalize;
+    text-align: center;
+    margin: 20px auto;
+    display: block;
+    text-decoration: none;
+    font-size: 50px;
+    background-color: #009688;
+    width: fit-content;
+    padding: 10px 20px;
+    font-family: arial;
+    color: white;
+    font-weight: bold;
+    border-bottom: 10px solid #00514a
+}

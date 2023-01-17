@@ -1,0 +1,46 @@
+/* 
+link of github 
+https://github.com/melsayedahmed
+Dont forget follow 
+
+link of Youtube Channel
+https://www.youtube.com/channel/UCo92JwtW5CbyN3XO6O0qocA
+Dont forget Subscribe
+ */
+ .parent-1 div{
+    background-color: #eee;
+    display: inline-block;
+    padding: 50px 80px;
+    margin: 20px;
+}
+.one{
+    border: 5px solid red;
+    outline: 5px solid black;
+}
+.two{
+    border: 5px solid;
+    border-color: blue green;
+    outline: 5px solid black;
+}
+.three{
+    border: 5px dashed;
+    border-color: red green blue yellow;
+    outline: 5px solid black;
+}
+.parent-2 div{
+    width: 400px;
+    margin: 20px auto;
+    background-color: #ddd;
+    padding: 20px;
+}
+.four{
+    border-left: 10px solid #e91e63;
+    outline: 10px solid #ddd;
+}
+.five{
+    visibility: hidden;
+}
+.six{
+    border-left: 10px solid #009688;
+    outline: 10px solid #ddd;
+}
