@@ -1,0 +1,93 @@
+/* 
+link of github 
+https://github.com/melsayedahmed
+Dont forget follow 
+
+link of Youtube Channel
+https://www.youtube.com/channel/UCo92JwtW5CbyN3XO6O0qocA
+Dont forget Subscribe
+ */
+
+ .assign-1 div{
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    background-color: #ddd;
+    margin: 20px auto;
+    line-height: 4;
+}
+div:empty{
+    background-color: red;
+}
+.assign-2 div{
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ddd;
+    width: fit-content;
+    position: relative;
+}
+.assign-2 div::first-letter{
+    content: "";
+    background-color: red;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    margin-left: -35px;
+    margin-top: -10px;
+    margin-right: 10px;
+}
+
+.assign-3 p{
+    width: 400px;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #ddd;
+    position: relative;
+    border-left: 5px solid #e91e63;
+}
+.assign-3 p::before{
+    content: attr(data-person);
+    position: absolute;
+    margin-left: -150px;
+    background-color: #ddd;
+    padding: 20px;
+    width: 50px;
+    text-align: center;
+    top: 0;
+}
+.assign-3 p::after{
+    content: "";
+    position: absolute;
+    border: 15px solid;
+    border-color: transparent #e91e63 transparent transparent;
+    left: -35px;
+    top: 50%;
+    margin-top: -15px;
+}
+.assign-4 p{
+    width: 400px;
+    background-color: #ddd;
+    margin: 20px auto;
+    padding: 20px;
+    counter-increment: number;
+    position: relative;
+}
+.assign-4 p::before{
+    content: counter(number);
+    background-color: #f44336;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    left: -48px;
+}
+.assign-4 p::after{
+    content: "";
+    height: 100%;
+    width: 5px;
+    position: absolute;
+    background-color: #f44336;
+    top: 0;
+    right: 0;
+}

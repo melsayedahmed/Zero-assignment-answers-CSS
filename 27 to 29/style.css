@@ -1,0 +1,56 @@
+/* 
+link of github 
+https://github.com/melsayedahmed
+Dont forget follow 
+
+link of Youtube Channel
+https://www.youtube.com/channel/UCo92JwtW5CbyN3XO6O0qocA
+Dont forget Subscribe
+ */
+
+ .parent{
+    width: 800px;
+    background-color: #eee;
+    margin: 20px auto;
+}
+.parent div{
+    background-color: #ddd;
+    float: left;
+    font-weight: bold;
+    padding: 20px 0;
+    margin-left: 15px;
+    margin-top: 15px;
+    text-align: center;
+}
+.clear{
+    clear: both;
+}
+.row-one{
+    width: calc(100% - 30px);
+}
+.row-two{
+    width: calc((100% - 60px) / 3);
+}
+.row-three{
+    width: calc((100% - 45px) / 2);
+}
+.row-four{
+    width: calc((100% - 75px) / 4);
+    margin-bottom: 15px;
+}
+
+.child div {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: #ddd; /* Get The Background From Image */
+    color: black;
+}
+.child .one{
+    background-color: rgb(221 221 221 / .5);
+}
+.two{
+    opacity: .5;
+}

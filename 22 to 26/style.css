@@ -1,0 +1,47 @@
+/* 
+link of github 
+https://github.com/melsayedahmed
+Dont forget follow 
+
+link of Youtube Channel
+https://www.youtube.com/channel/UCo92JwtW5CbyN3XO6O0qocA
+Dont forget Subscribe
+ */
+
+ html{
+    font-size: 20px;
+}
+div{
+    margin: 20px auto;
+    padding: 20px;
+    border: 5px solid #ff5722;
+}
+div p{
+    padding: inherit;
+    background-color: #ddd;
+    text-align: center;
+    font-size: 40px;
+    font-family: arial;
+    border: inherit;
+}
+p{
+    text-align: center;
+}
+.one{
+    font-family: 'Open Sans', sans-serif;
+}
+.two{
+    font-family: 'Cairo', sans-serif;
+}
+.three{
+    font-family: 'Jomhuria', cursive;
+}
+.four{
+    font-size: 2.5rem;
+}
+.five{
+    font-size: 2rem;
+}
+.six{
+    font-size: 1.5rem;
+}
